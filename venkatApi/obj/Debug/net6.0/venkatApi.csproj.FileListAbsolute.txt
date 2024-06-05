@@ -1,0 +1,7 @@
+E:\vignesh\venkatApi\venkatApi\obj\Debug\net6.0\venkatApi.csproj.AssemblyReference.cache
+E:\vignesh\venkatApi\venkatApi\obj\Debug\net6.0\venkatApi.GeneratedMSBuildEditorConfig.editorconfig
+E:\vignesh\venkatApi\venkatApi\obj\Debug\net6.0\venkatApi.AssemblyInfoInputs.cache
+E:\vignesh\venkatApi\venkatApi\obj\Debug\net6.0\venkatApi.AssemblyInfo.cs
+E:\vignesh\venkatApi\venkatApi\obj\Debug\net6.0\venkatApi.csproj.CoreCompileInputs.cache
+E:\vignesh\venkatApi\venkatApi\obj\Debug\net6.0\venkatApi.MvcApplicationPartsAssemblyInfo.cs
+E:\vignesh\venkatApi\venkatApi\obj\Debug\net6.0\venkatApi.MvcApplicationPartsAssemblyInfo.cache
