@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "venkatApi", "venkatApi\venkatApi.csproj", "{E5025B6C-8674-49BE-AFE9-2CA895D7FEEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationApi", "venkatApi\ApplicationApi.csproj", "{E5025B6C-8674-49BE-AFE9-2CA895D7FEEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "venkatApi.Entity", "VenkatApi.Entity\venkatApi.Entity.csproj", "{0EA1D7F9-C78A-4D1F-BE63-EA8C94679106}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationApi.Entity", "VenkatApi.Entity\ApplicationApi.Entity.csproj", "{0EA1D7F9-C78A-4D1F-BE63-EA8C94679106}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "venkatApi.BLL", "VenkatApi.BLL\venkatApi.BLL.csproj", "{4EF95A23-B6D8-4C8E-A34E-DA2FEC060E2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationApi.BLL", "VenkatApi.BLL\ApplicationApi.BLL.csproj", "{4EF95A23-B6D8-4C8E-A34E-DA2FEC060E2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "venkatApi.DAL", "venkatApi.DAL\venkatApi.DAL.csproj", "{1205DD0C-AA87-4A88-8818-D50327D84E5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationApi.DAL", "venkatApi.DAL\ApplicationApi.DAL.csproj", "{1205DD0C-AA87-4A88-8818-D50327D84E5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

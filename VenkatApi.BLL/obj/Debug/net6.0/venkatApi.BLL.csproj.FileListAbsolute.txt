@@ -1,0 +1,15 @@
+E:\vignesh\venkatApi\VenkatApi.BLL\bin\Debug\net6.0\venkatApi.BLL.deps.json
+E:\vignesh\venkatApi\VenkatApi.BLL\bin\Debug\net6.0\venkatApi.BLL.dll
+E:\vignesh\venkatApi\VenkatApi.BLL\bin\Debug\net6.0\venkatApi.BLL.pdb
+E:\vignesh\venkatApi\VenkatApi.BLL\obj\Debug\net6.0\venkatApi.BLL.csproj.AssemblyReference.cache
+E:\vignesh\venkatApi\VenkatApi.BLL\obj\Debug\net6.0\venkatApi.BLL.GeneratedMSBuildEditorConfig.editorconfig
+E:\vignesh\venkatApi\VenkatApi.BLL\obj\Debug\net6.0\venkatApi.BLL.AssemblyInfoInputs.cache
+E:\vignesh\venkatApi\VenkatApi.BLL\obj\Debug\net6.0\venkatApi.BLL.AssemblyInfo.cs
+E:\vignesh\venkatApi\VenkatApi.BLL\obj\Debug\net6.0\venkatApi.BLL.csproj.CoreCompileInputs.cache
+E:\vignesh\venkatApi\VenkatApi.BLL\obj\Debug\net6.0\venkatApi.BLL.dll
+E:\vignesh\venkatApi\VenkatApi.BLL\obj\Debug\net6.0\refint\venkatApi.BLL.dll
+E:\vignesh\venkatApi\VenkatApi.BLL\obj\Debug\net6.0\venkatApi.BLL.pdb
+E:\vignesh\venkatApi\VenkatApi.BLL\obj\Debug\net6.0\ref\venkatApi.BLL.dll
+E:\vignesh\venkatApi\VenkatApi.BLL\bin\Debug\net6.0\venkatApi.Entity.dll
+E:\vignesh\venkatApi\VenkatApi.BLL\bin\Debug\net6.0\venkatApi.Entity.pdb
+E:\vignesh\venkatApi\VenkatApi.BLL\obj\Debug\net6.0\venkatApi.BLL.csproj.CopyComplete

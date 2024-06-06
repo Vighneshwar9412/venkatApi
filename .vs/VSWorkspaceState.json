@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "\\venkatApi",
+    "\\VenkatApi.BLL",
+    "\\venkatApi.DAL",
+    "\\venkatApi.DAL\\database",
+    "\\VenkatApi.Entity",
+    "\\VenkatApi.Entity\\Models"
+  ],
+  "PreviewInSolutionExplorer": false
+}

@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\vignesh\\venkatApi\\VenkatApi.Entity\\VenkatApi.Entity.csproj",
-      "projectName": "VenkatApi.Entity",
-      "projectPath": "E:\\vignesh\\venkatApi\\VenkatApi.Entity\\VenkatApi.Entity.csproj",
+      "projectUniqueName": "E:\\vignesh\\venkatApi\\VenkatApi.Entity\\ApplicationApi.Entity.csproj",
+      "projectName": "ApplicationApi.Entity",
+      "projectPath": "E:\\vignesh\\venkatApi\\VenkatApi.Entity\\ApplicationApi.Entity.csproj",
       "packagesPath": "C:\\Users\\4QT-T-03\\.nuget\\packages\\",
       "outputPath": "E:\\vignesh\\venkatApi\\VenkatApi.Entity\\obj\\",
       "projectStyle": "PackageReference",

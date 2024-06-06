@@ -1,8 +1,11 @@
-﻿using venkatApi.Models;
-namespace venkatApi.Interfaces
+﻿using ApplicationApi.Models;
+using ApplicationApi.Responses;
+
+namespace ApplicationApi.Interfaces
 {
     public interface Interface
     {
-        Task<dynamic> RegisterNewuser(HttpRequest req  , Userdata user );
+         ApiResponse  RegisterNewuser( Userdata user) ;
     }
+    
 }

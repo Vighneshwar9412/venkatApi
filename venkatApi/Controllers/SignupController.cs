@@ -1,26 +1,32 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using venkatApi.Interfaces;
-using venkatApi.Models;
+using ApplicationApi.Interfaces;
+using ApplicationApi.Models;
+using ApplicationApi.Repositories;
+using ApplicationApi.Responses;
 
-
-namespace venkatApi.Controllers
+namespace ApplicationApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/Signup")]
     [ApiController]
     public class SignupController : ControllerBase
-    {
-        public readonly Interface _Interface;
+    {   
+        private readonly Interface _Interface;
         public SignupController(Interface Input) {
             _Interface = Input;
         }
 
         [HttpPost]
-        [Route("Report")]
-        public Task<dynamic> RegisterNewuser(Userdata userdata) {
+        public JsonResult RegisterNewusers(Userdata userdata)
+        {
 
-            return new _Interface.RegisterNewuser(Request,userdata);
+            var response = _Interface.RegisterNewuser(userdata);
 
-        }  
+            return new JsonResult(response);
+
+        }
+        
+        
+       
     }
 }

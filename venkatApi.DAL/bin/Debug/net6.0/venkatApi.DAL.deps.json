@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "venkatApi.DAL/1.0.0": {
+        "dependencies": {
+          "venkatApi.Entity": "1.0.0"
+        },
+        "runtime": {
+          "venkatApi.DAL.dll": {}
+        }
+      },
+      "venkatApi.Entity/1.0.0": {
+        "runtime": {
+          "venkatApi.Entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "venkatApi.DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "venkatApi.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

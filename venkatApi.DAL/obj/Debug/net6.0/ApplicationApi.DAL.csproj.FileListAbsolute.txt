@@ -1,0 +1,15 @@
+E:\vignesh\venkatApi\venkatApi.DAL\bin\Debug\net6.0\ApplicationApi.DAL.deps.json
+E:\vignesh\venkatApi\venkatApi.DAL\bin\Debug\net6.0\ApplicationApi.DAL.dll
+E:\vignesh\venkatApi\venkatApi.DAL\bin\Debug\net6.0\ApplicationApi.DAL.pdb
+E:\vignesh\venkatApi\venkatApi.DAL\bin\Debug\net6.0\ApplicationApi.Entity.dll
+E:\vignesh\venkatApi\venkatApi.DAL\bin\Debug\net6.0\ApplicationApi.Entity.pdb
+E:\vignesh\venkatApi\venkatApi.DAL\obj\Debug\net6.0\ApplicationApi.DAL.csproj.AssemblyReference.cache
+E:\vignesh\venkatApi\venkatApi.DAL\obj\Debug\net6.0\ApplicationApi.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\vignesh\venkatApi\venkatApi.DAL\obj\Debug\net6.0\ApplicationApi.DAL.AssemblyInfoInputs.cache
+E:\vignesh\venkatApi\venkatApi.DAL\obj\Debug\net6.0\ApplicationApi.DAL.AssemblyInfo.cs
+E:\vignesh\venkatApi\venkatApi.DAL\obj\Debug\net6.0\ApplicationApi.DAL.csproj.CoreCompileInputs.cache
+E:\vignesh\venkatApi\venkatApi.DAL\obj\Debug\net6.0\ApplicationApi.DAL.csproj.CopyComplete
+E:\vignesh\venkatApi\venkatApi.DAL\obj\Debug\net6.0\ApplicationApi.DAL.dll
+E:\vignesh\venkatApi\venkatApi.DAL\obj\Debug\net6.0\refint\ApplicationApi.DAL.dll
+E:\vignesh\venkatApi\venkatApi.DAL\obj\Debug\net6.0\ApplicationApi.DAL.pdb
+E:\vignesh\venkatApi\venkatApi.DAL\obj\Debug\net6.0\ref\ApplicationApi.DAL.dll

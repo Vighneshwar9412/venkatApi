@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ApplicationApi.Entity/1.0.0": {
+        "runtime": {
+          "ApplicationApi.Entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ApplicationApi.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

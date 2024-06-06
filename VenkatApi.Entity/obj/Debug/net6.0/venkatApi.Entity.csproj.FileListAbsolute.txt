@@ -1,0 +1,12 @@
+E:\vignesh\venkatApi\VenkatApi.Entity\obj\Debug\net6.0\venkatApi.Entity.csproj.AssemblyReference.cache
+E:\vignesh\venkatApi\VenkatApi.Entity\obj\Debug\net6.0\venkatApi.Entity.GeneratedMSBuildEditorConfig.editorconfig
+E:\vignesh\venkatApi\VenkatApi.Entity\obj\Debug\net6.0\venkatApi.Entity.AssemblyInfoInputs.cache
+E:\vignesh\venkatApi\VenkatApi.Entity\obj\Debug\net6.0\venkatApi.Entity.AssemblyInfo.cs
+E:\vignesh\venkatApi\VenkatApi.Entity\obj\Debug\net6.0\venkatApi.Entity.csproj.CoreCompileInputs.cache
+E:\vignesh\venkatApi\VenkatApi.Entity\bin\Debug\net6.0\venkatApi.Entity.deps.json
+E:\vignesh\venkatApi\VenkatApi.Entity\bin\Debug\net6.0\venkatApi.Entity.dll
+E:\vignesh\venkatApi\VenkatApi.Entity\bin\Debug\net6.0\venkatApi.Entity.pdb
+E:\vignesh\venkatApi\VenkatApi.Entity\obj\Debug\net6.0\venkatApi.Entity.dll
+E:\vignesh\venkatApi\VenkatApi.Entity\obj\Debug\net6.0\refint\venkatApi.Entity.dll
+E:\vignesh\venkatApi\VenkatApi.Entity\obj\Debug\net6.0\venkatApi.Entity.pdb
+E:\vignesh\venkatApi\VenkatApi.Entity\obj\Debug\net6.0\ref\venkatApi.Entity.dll

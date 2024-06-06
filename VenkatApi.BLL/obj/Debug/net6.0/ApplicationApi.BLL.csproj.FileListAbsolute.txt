@@ -1,0 +1,15 @@
+E:\vignesh\venkatApi\VenkatApi.BLL\bin\Debug\net6.0\ApplicationApi.BLL.deps.json
+E:\vignesh\venkatApi\VenkatApi.BLL\bin\Debug\net6.0\ApplicationApi.BLL.dll
+E:\vignesh\venkatApi\VenkatApi.BLL\bin\Debug\net6.0\ApplicationApi.BLL.pdb
+E:\vignesh\venkatApi\VenkatApi.BLL\bin\Debug\net6.0\ApplicationApi.Entity.dll
+E:\vignesh\venkatApi\VenkatApi.BLL\bin\Debug\net6.0\ApplicationApi.Entity.pdb
+E:\vignesh\venkatApi\VenkatApi.BLL\obj\Debug\net6.0\ApplicationApi.BLL.csproj.AssemblyReference.cache
+E:\vignesh\venkatApi\VenkatApi.BLL\obj\Debug\net6.0\ApplicationApi.BLL.GeneratedMSBuildEditorConfig.editorconfig
+E:\vignesh\venkatApi\VenkatApi.BLL\obj\Debug\net6.0\ApplicationApi.BLL.AssemblyInfoInputs.cache
+E:\vignesh\venkatApi\VenkatApi.BLL\obj\Debug\net6.0\ApplicationApi.BLL.AssemblyInfo.cs
+E:\vignesh\venkatApi\VenkatApi.BLL\obj\Debug\net6.0\ApplicationApi.BLL.csproj.CoreCompileInputs.cache
+E:\vignesh\venkatApi\VenkatApi.BLL\obj\Debug\net6.0\ApplicationApi.BLL.csproj.CopyComplete
+E:\vignesh\venkatApi\VenkatApi.BLL\obj\Debug\net6.0\ApplicationApi.BLL.dll
+E:\vignesh\venkatApi\VenkatApi.BLL\obj\Debug\net6.0\refint\ApplicationApi.BLL.dll
+E:\vignesh\venkatApi\VenkatApi.BLL\obj\Debug\net6.0\ApplicationApi.BLL.pdb
+E:\vignesh\venkatApi\VenkatApi.BLL\obj\Debug\net6.0\ref\ApplicationApi.BLL.dll
