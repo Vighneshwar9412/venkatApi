@@ -14,7 +14,7 @@ namespace ApplicationApi.DAL.database
             _data = data;
 
         }
-
+        /*
         public List<Userdata> addNewUser()
         {
             try
@@ -29,7 +29,7 @@ namespace ApplicationApi.DAL.database
             
             return usersData;
 
-        }
+        }*/
         public Boolean IsuserExist( ) {
 
             Boolean flag = false;
