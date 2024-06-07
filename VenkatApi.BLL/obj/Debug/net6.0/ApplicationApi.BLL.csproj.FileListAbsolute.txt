@@ -13,3 +13,5 @@ E:\vignesh\venkatApi\VenkatApi.BLL\obj\Debug\net6.0\ApplicationApi.BLL.dll
 E:\vignesh\venkatApi\VenkatApi.BLL\obj\Debug\net6.0\refint\ApplicationApi.BLL.dll
 E:\vignesh\venkatApi\VenkatApi.BLL\obj\Debug\net6.0\ApplicationApi.BLL.pdb
 E:\vignesh\venkatApi\VenkatApi.BLL\obj\Debug\net6.0\ref\ApplicationApi.BLL.dll
+E:\vignesh\venkatApi\VenkatApi.BLL\bin\Debug\net6.0\ApplicationApi.DAL.dll
+E:\vignesh\venkatApi\VenkatApi.BLL\bin\Debug\net6.0\ApplicationApi.DAL.pdb

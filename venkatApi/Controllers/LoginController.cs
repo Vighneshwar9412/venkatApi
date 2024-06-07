@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using ApplicationApi.Models;
 using ApplicationApi.Interfaces;
 using ApplicationApi.Repositories;
+using ApplicationApi.DAL.database;
 
 namespace ApplicationApi.Controllers
 {
@@ -17,10 +18,9 @@ namespace ApplicationApi.Controllers
         }
 
         [HttpPost]
-        public JsonResult login(Userdata User)
+        public JsonResult login([FromBody]userLoginCredentialdata User)
         {
-           // var res = new LoginRepository().RegisterNewuser();
-            return new JsonResult("");
+           return new JsonResult(true);
         }
     }
 }

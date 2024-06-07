@@ -8,6 +8,8 @@ using Newtonsoft.Json;
 using ApplicationApi.Models;
 
 using System.Net;
+using ApplicationApi.Entity.Models;
+
 namespace ApplicationApi.DAL.database
 {
     public class UserdataFromDb
@@ -15,13 +17,14 @@ namespace ApplicationApi.DAL.database
 
         SqlConnection con = new SqlConnection("Server= dc-serv; Database=Test1;Integrated Security=true");
         private Userdata _data;
-       
+        public UserdataFromDb() { 
+        }
         public UserdataFromDb(Userdata data)
         {
             _data = data;
 
         }
-        public int addNewUser(  )
+        public async Task<dynamic> AddNewUser( )
         {
             int st = 0;
             con.Open();
@@ -30,19 +33,20 @@ namespace ApplicationApi.DAL.database
             cmd.Parameters.AddWithValue("@email", _data.email );
             cmd.Parameters.AddWithValue("@password", _data.Password);
 
-            st = cmd.ExecuteNonQuery();
-
-            return st;
+            st = await cmd.ExecuteNonQueryAsync();
+            con.Close();
+            return new int [] { st };
 
 
         }
-        public string  SelectData()
+        public async Task<dynamic> getAllUser()
         {
-            string st = "";
-           
+            List<UserdataResp> NewList = new List<UserdataResp>();
+
+
 
             con.Open();
-            SqlCommand cmd = new SqlCommand("Sp_V_GetEmployeeData", con);
+            SqlCommand cmd = new SqlCommand("userRegistered_vignes_get__proc", con);
             cmd.CommandType = CommandType.StoredProcedure;
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             DataSet ds = new DataSet();
@@ -51,14 +55,16 @@ namespace ApplicationApi.DAL.database
             con.Close();
             if (ds.Tables[0].Rows.Count > 0)
             {
-                st = JsonConvert.SerializeObject(ds.Tables, Newtonsoft.Json.Formatting.Indented);
+
+                return new dynamic[] { ds };
             }
             else
             {
-                st = JsonConvert.SerializeObject("no data found ", Newtonsoft.Json.Formatting.Indented);
+               
+                return new dynamic[] {  "something went wrong with emails and passwords " };
             }
 
-            return st;
+            
 
              
         }

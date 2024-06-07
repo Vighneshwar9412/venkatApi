@@ -902,6 +902,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "ApplicationApi.DAL": "1.0.0",
           "ApplicationApi.Entity": "1.0.0"
         },
         "compile": {

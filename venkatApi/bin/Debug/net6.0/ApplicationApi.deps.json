@@ -524,6 +524,7 @@
       },
       "ApplicationApi.BLL/1.0.0": {
         "dependencies": {
+          "ApplicationApi.DAL": "1.0.0",
           "ApplicationApi.Entity": "1.0.0"
         },
         "runtime": {

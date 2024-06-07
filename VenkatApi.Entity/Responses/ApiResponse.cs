@@ -1,5 +1,6 @@
 ﻿using System.Net;
 using System.Runtime.Serialization;
+using ApplicationApi.Entity.Models;
 using ApplicationApi.Models;
 
 namespace ApplicationApi.Responses
@@ -12,7 +13,7 @@ namespace ApplicationApi.Responses
         public Boolean IsSuccess { set; get; }
         [DataMember]
         public Userdata Body { set; get; }
-
-        public List<Userdata> Users { set; get; }
+        [DataMember]
+        public dynamic Users { set; get; }
     }
 }
