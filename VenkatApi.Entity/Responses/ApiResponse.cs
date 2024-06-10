@@ -15,5 +15,7 @@ namespace ApplicationApi.Responses
         public Userdata Body { set; get; }
         [DataMember]
         public dynamic Users { set; get; }
+        [DataMember]
+        public userLoginCredentialdata Logindata { set; get; }  
     }
 }

@@ -1,15 +1,20 @@
-﻿using ApplicationApi.DAL.database;
-using ApplicationApi.Models;
+﻿using ApplicationApi.Entity.Models;
+
+using ApplicationApi.Responses;
+using Microsoft.AspNetCore.Mvc;
 
 namespace ApplicationApi.Interfaces
 {
     public interface ILogin
     {
 
-        public dynamic LoginRepository();
+        public  Task<ApiResponse>  LoginRepositoryMethod(userLoginCredentialdata _user);
 
-        public Boolean pass_uName_cheeck();
+        public Task<Boolean> pass_uName_cheeck(userLoginCredentialdata _user);
+        public  Task<ApiResponse> login(userLoginCredentialdata User);
 
+        public String GenerateToken(userLoginCredentialdata User);
+        
 
     }
 }

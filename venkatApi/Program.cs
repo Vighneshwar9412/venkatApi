@@ -1,7 +1,11 @@
+using ApplicationApi.DAL.database;
 using ApplicationApi.Data;
 using ApplicationApi.Interfaces;
 using ApplicationApi.Repositories;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 internal class Program
 {
@@ -17,10 +21,30 @@ internal class Program
             
         });
         builder.Services.AddScoped<Interface, SignupRepositiory>();
+        builder.Services.AddScoped<ILogin, LoginRepository>();
+
         builder.Services.AddControllers();
+        
+        string mySecretKey = builder.Configuration.GetValue<string>("ApiSettings:SecretKey");
+        // JWT AUTHENTICATION  
+        builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                         .AddJwtBearer(options =>
+                                              {
+                                               options.RequireHttpsMetadata = false; // Not recommended for production
+                                               options.TokenValidationParameters = new TokenValidationParameters
+                                               {
+                                                   ValidateIssuerSigningKey = true,
+                                                   IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("Jwt:Key")),
+                                                   ValidateIssuer = false, // Not recommended for production
+                                                   ValidateAudience = false  // Not recommended for production
+                                               };
+    });
+
 
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
+
+        
 
         var app = builder.Build();
 
@@ -32,7 +56,7 @@ internal class Program
         }
 
         app.UseHttpsRedirection();
-
+        app.UseAuthentication();
         app.UseAuthorization();
 
         app.MapControllers();

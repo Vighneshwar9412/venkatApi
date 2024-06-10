@@ -11,15 +11,13 @@ namespace ApplicationApi.BLL.NewFolder
         List<UserdataResp> userdataResps = new List<UserdataResp>();    
         public Userdata _user ;
         public getAllUserInList() {
-
-           
+  
 
          }
 
     public async Task<List<UserdataResp>> getAllUseriList(){
 
-        var Response = new UserdataFromDb();
-        dynamic Allusers = await Response.getAllUser();
+        dynamic Allusers = await new UserdataFromDb().getAllUser();
         DataSet ds = Allusers[0];
                    
                     if (ds != null && ds.Tables.Count > 0)
@@ -38,3 +36,4 @@ namespace ApplicationApi.BLL.NewFolder
         }
     }
 }
+

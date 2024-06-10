@@ -45,6 +45,7 @@ namespace ApplicationApi.Repositories
                 {
 
                     dynamic Allusers = await Response.getAllUser();
+                   // dynamic Allusers = await  new UserdataFromDb().getAllUser(); ;
                     DataSet ds = Allusers[0];
                     if (ds != null && ds.Tables.Count > 0)
                     {
